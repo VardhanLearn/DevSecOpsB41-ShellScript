@@ -1,0 +1,22 @@
+Class 1,2,3
+1. Base lab creation on AWS
+2. Install unzip, jq, net-tools, nginx, aws cli, azure cli
+- apt update && apt install -y unzip jq net-tools
+- apt install -y nginx
+3. Declared Variables  and accessing there
+4. Declaring Env variables and updating in .bashrc
+5. Resloving .bashrc issues by using directory level env variables using direnv
+6. Accessing pokemon API and parsing JSON output using jq
+7. Passing Positional arguments to Shell scripts Eg: Script.sh echo $1 $2
+
+
+Class 4:
+1. Shell Data Operators
+Art Mem:
+free -m | grep -i mem
+echo "Welcome-To-London-On-AirIndia" | awk -F "-" '{print $4,$3,$2,$1}'
+
+2. Understand $? $* $#
+
+
+

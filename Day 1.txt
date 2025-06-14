@@ -1,0 +1,25 @@
+1. Introduction to shell scripting
+2. Creating Linux Machine for shell scripting on AWS
+3. Install & configure VSCode
+4. Install unzip, jq, net-tools, nginx, aws cli, azure cli
+	- apt update && apt install -y unzip jq net-tools
+	- apt install -y nginx
+
+Class 02:
+1. Git install & add GitHub account private
+2. Local repo code push to GitHub account & pull Linux machine
+3. Executed the script which we create of Check Num & given user chmod 777 permission
+4. Declaring variables
+5. using Pokémon API and using JQ for parsing JSON information
+
+Class 03:
+1. Env variables
+2. Exporting variables using .bashrc and it's challenges
+3. Using direnv
+4. Passing Args/params to shell
+
+
+git-> its a software for code track
+remote -> GitHub, Gitlab, Bitbucket, Azure Repo
+
+

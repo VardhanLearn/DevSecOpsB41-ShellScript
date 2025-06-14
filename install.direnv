@@ -1,0 +1,16 @@
+sudo apt-get install direnv
+
+nano ~/.bashrc and add the following line
+eval "$(direnv hook bash)"
+
+source ~/.bashrc 
+
+mkdir Project1, Project2 && cd Project1
+export AWS_ACCESS_KEY_ID=AKIAQKGGXQKEKB4LFNPBProj1
+export AWS_SECRET_ACCESS_KEY=4k0m05n3+vUk7t6rxk1fLFkMCsPh3exJypRXHnlqProj1
+export AWS_DEFAULT_REGION=us-east-1
+export AWS_DEMO="DevSecOps@1234"
+
+direnv allow .
+
+echo $AWS_ACCESS_KEY_ID
